@@ -31,7 +31,11 @@ public void triangles(double x, double y, double l) {
 		triangles(x, y-(l*(Math.sqrt(3)/8)), l/2);
 	} else {
 		triangle((float) x, (float) (y-((Math.sqrt(3)/4)*l)), (float) (x+l/2), (float) (y+((Math.sqrt(3)/4)*l)), (float) (x-l/2), (float) (y+((Math.sqrt(3)/4)*l)));
-		//fill(0);
-		//ellipse((float)x,(float)y,(float)(10),(float)(10));	
+
+		stroke(5);
+		fill(255);
+		ellipse((float)x,(float)y,(float)(10),(float)(5));
+		fill(0);
+		ellipse((float)x,(float)y,(float)(5),(float)(5));	
 	}
 }
