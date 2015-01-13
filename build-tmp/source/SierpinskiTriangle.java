@@ -50,9 +50,9 @@ public void triangles(double x, double y, double l) {
 
 		stroke(5);
 		fill(255);
-		ellipse((float)x,(float)y,(float)(10),(float)(5));
+		ellipse((float)x,(float)y+5,(float)(15),(float)(5));
 		fill(0);
-		ellipse((float)x,(float)y,(float)(5),(float)(5));	
+		ellipse((float)x,(float)y+5,(float)(5),(float)(5));	
 	}
 }
   static public void main(String[] passedArgs) {
